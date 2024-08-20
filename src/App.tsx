@@ -13,13 +13,13 @@ function App() {
     <>
       <StarsCanvas />
       <Navbar />
-      <div className='flex flex-col h-[850px] gap-20'>
+      <div className='flex flex-col gap-20'>
         <Hero />
         <AboutMe />
         <Projects />
         <Skills />
+        <Footer />
       </div>
-      <Footer />
     </>
   )
 }

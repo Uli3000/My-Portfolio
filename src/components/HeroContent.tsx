@@ -65,7 +65,7 @@ const HeroContent = () => {
             </a>
           </button>
           <nav className="flex flex-row flex-wrap gap-4"> <a href="mailto:ulisesdev3000@gmail.com" target="_blank" className="inline-flex items-center justify-center gap-2 px-4 py-1 text-gray-800 transition bg-gray-100 border border-gray-300 rounded-full dark:bg-gray-900 dark:border-gray-600 dark:text-white text-md hover:bg-gray-950 hover:border-gray-700 group max-w-fit hover:text-white focus:outline-none focus-visible:outline-none">
-            <Email/> Contáctame
+            <Email className="w-4 h-4"/> Contáctame
           </a> <a href="https://github.com/Uli3000" target="_blank" className="inline-flex items-center justify-center gap-2 px-4 py-1 text-white transition border border-gray-600 rounded-full dark:bg-gray-900 text-md hover:bg-gray-950 hover:border-gray-700 group max-w-fit hover:text-white focus:outline-none focus-visible:outline-none"> 
               <Github /> GitHub
             </a> </nav>

@@ -23,11 +23,11 @@ import Github from "./icons/GitHub.js";
 
 const Skills: React.FC = () => {
     return (
-        <section className="z-40 max-w-[1320px] mb-20 mt-10 text-center mx-auto">
+        <section className="z-40 max-w-[1320px] mb-6 mt-9 text-center mx-auto">
             <h2 className="mt-4 font-[Onest] text-4xl font-semibold text-gray-100 mb-8">
                 Habilidades
             </h2>
-            <ul className="flex flex-wrap justify-center gap-4 p-2 mb-8 list-none">
+            <ul className="flex flex-wrap justify-center gap-4 p-2 mb-2 list-none">
                 <Skill
                     name="JavaScript"
                     Icon={JavaScript}
