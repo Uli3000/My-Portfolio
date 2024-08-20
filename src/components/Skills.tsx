@@ -23,7 +23,7 @@ import Github from "./icons/GitHub.js";
 
 const Skills: React.FC = () => {
     return (
-        <section className="z-40 max-w-[1320px] mb-20 mt-20 text-center mx-auto">
+        <section className="z-40 max-w-[1320px] mb-20 mt-10 text-center mx-auto">
             <h2 className="mt-4 font-[Onest] text-4xl font-semibold text-gray-100 mb-8">
                 Habilidades
             </h2>

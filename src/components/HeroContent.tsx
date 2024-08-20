@@ -5,9 +5,11 @@ import {
 } from "../utils/motion";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { useResponsive } from "../hooks/useResponisve";
+import Github from "./icons/GitHub";
+import Email from "./icons/Email";
 
 const HeroContent = () => {
-  const [windowWidth ,breakpoint] = useResponsive()
+  const [windowWidth, breakpoint] = useResponsive()
 
   const [text] = useTypewriter({
     words: ['Desarrollador Web', 'Ingeniero en Sistemas'],
@@ -27,10 +29,10 @@ const HeroContent = () => {
         >
           <p className="flex flex-col justify-center gap-y-3 text-wrap">
             <span>
-            Soy {""}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+              Soy {""}
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
                 Ulises Castro
-            </span>
+              </span>
             </span>
             {windowWidth >= breakpoint && (
               <span className="text-4xl font-medium">
@@ -54,14 +56,19 @@ const HeroContent = () => {
         </motion.p>
         <motion.div
           variants={slideInFromLeft(1)}
-          className="max-w-[200px]"
+          className="flex flex-wrap gap-8"
         >
-          <button className='relative inline-flex items-center justify-center w-full h-12 px-6 font-medium transition-all bg-white rounded-md text-gray-950 hover:scale-105'>
-      <div className='absolute -inset-0.5 -z-10 rounded-lg bg-gradient-to-b from-[#c7d2fe] to-[#8678f9] opacity-75 blur' />
-      <a className="w-full" href="#Acerca-de-mi">
-      Conoceme
-      </a>
-    </button>
+          <button className='max-w-[200px] relative inline-flex items-center justify-center w-full h-12 px-6 font-medium transition-all bg-white rounded-md text-gray-950 hover:scale-105'>
+            <div className='absolute -inset-0.5 -z-10 rounded-lg bg-gradient-to-b from-[#c7d2fe] to-[#8678f9] opacity-75 blur' />
+            <a className="w-full" href="#Acerca-de-mi">
+              Conoceme
+            </a>
+          </button>
+          <nav className="flex flex-row flex-wrap gap-4"> <a href="mailto:ulisesdev3000@gmail.com" target="_blank" className="inline-flex items-center justify-center gap-2 px-4 py-1 text-gray-800 transition bg-gray-100 border border-gray-300 rounded-full dark:bg-gray-900 dark:border-gray-600 dark:text-white text-md hover:bg-gray-950 hover:border-gray-700 group max-w-fit hover:text-white focus:outline-none focus-visible:outline-none">
+            <Email/> Contáctame
+          </a> <a href="https://github.com/Uli3000" target="_blank" className="inline-flex items-center justify-center gap-2 px-4 py-1 text-white transition border border-gray-600 rounded-full dark:bg-gray-900 text-md hover:bg-gray-950 hover:border-gray-700 group max-w-fit hover:text-white focus:outline-none focus-visible:outline-none"> 
+              <Github /> GitHub
+            </a> </nav>
         </motion.div>
       </div>
 
@@ -70,15 +77,15 @@ const HeroContent = () => {
         className="flex items-center justify-center w-full h-full"
       >
         <motion.img
-        initial={{ y: 0 }}
-        animate={{ y: [0, -20, 0] }}
-        transition={{
-          duration: 2.5, 
-          repeat: Infinity,
-          repeatType: "loop",
-          ease: "easeInOut"
-        }}
-        className="invisible opacity-80 sm:visible"
+          initial={{ y: 0 }}
+          animate={{ y: [0, -20, 0] }}
+          transition={{
+            duration: 2.5,
+            repeat: Infinity,
+            repeatType: "loop",
+            ease: "easeInOut"
+          }}
+          className="invisible opacity-80 sm:visible"
           src="/Spaceman.png"
           alt="work icons"
           height={620}

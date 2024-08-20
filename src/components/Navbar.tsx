@@ -22,8 +22,8 @@ const Navbar = () => {
                     <a href="#Proyectos" className="cursor-pointer nav-item">
                         Proyectos
                     </a>
-                    <a href="#Contacto" className="cursor-pointer nav-item">
-                        Contacame
+                    <a href="mailto:ulisesdev3000@gmail.com" className="cursor-pointer nav-item">
+                        Contáctame
                     </a>
                 </div>
             </div>
