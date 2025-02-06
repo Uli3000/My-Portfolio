@@ -1,4 +1,5 @@
 import Email from './icons/Email';
+import LinkedIn from './icons/LinkedIn';
 
 function Footer() {
   return (
@@ -7,7 +8,7 @@ function Footer() {
         <hr className='my-6 border-gray-700 sm:mx-auto lg:mt-1' />
         <div className='sm:flex sm:items-center sm:justify-between'>
           <span className='text-sm text-gray-400 sm:text-center'>
-            © 2024{' '}
+            © 2025{' '}
             <a href='#' className='hover:underline'>
               Ulises Castro
             </a>
@@ -32,6 +33,14 @@ function Footer() {
                 />
               </svg>
               <span className='sr-only'>GitHub</span>
+            </a>
+            <a
+              target='_blank'
+              href='https://www.linkedin.com/in/ulisescastro3000/'
+              className='text-gray-500 hover:text-white ms-5'
+            >
+              <LinkedIn className='size-5' />
+              <span className='sr-only'>Linkedin</span>
             </a>
             <a
               target='_blank'

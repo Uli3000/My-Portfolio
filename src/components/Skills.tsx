@@ -16,10 +16,10 @@ import Android from "./icons/AndroidStudio.js";
 import MySQL from "./icons/MySQL.js";
 import JWT from "./icons/JWT.js";
 import CSS from "./icons/CSS.js";
-import Netlify from "./icons/Netlify";
-import VisualStudioCode from "./icons/VisualStudioCode";
 import Git from "./icons/Git.js";
 import Github from "./icons/GitHub.js";
+import MongoDB from "./icons/Mongo.js";
+import C from "./icons/C.js";
 
 const Skills: React.FC = () => {
     return (
@@ -55,8 +55,8 @@ const Skills: React.FC = () => {
                 <Skill
                     name="Tailwind CSS"
                     Icon={TailwindCSS} 
-                    borderColor="rgba(0, 49, 89, 0.453)" 
-                    hoverColor="rgba(0, 49, 89, 0.136)"
+                    borderColor="rgba(0, 120, 215, 0.453)" 
+                    hoverColor="rgba(0, 120, 215, 0.136)"
                 />
                 <Skill
                     name="Node.js"
@@ -113,16 +113,16 @@ const Skills: React.FC = () => {
                     hoverColor="rgba(0, 117, 143, 0.136)"
                 />
                 <Skill
-                    name="Visual Studio Code"
-                    Icon={VisualStudioCode} 
-                    borderColor="rgba(0, 120, 215, 0.453)" 
-                    hoverColor="rgba(0, 120, 215, 0.136)"
+                    name="C#"
+                    Icon={C} 
+                    borderColor="rgba(145, 121, 228, 0.453)" 
+                    hoverColor="rgba(145, 121, 228, 0.136)"
                 />
                 <Skill
-                    name="Netlify"
-                    Icon={Netlify} 
-                    borderColor="rgba(32, 198, 183, 0.453)" 
-                    hoverColor="rgba(32, 198, 183, 0.136)"
+                    name="MongoDB"
+                    Icon={MongoDB} 
+                    borderColor="rgba(77, 179, 61, 0.453)" 
+                    hoverColor="rgba(77, 179, 61, 0.136)"
                 />
                 <Skill
                     name="Git"
@@ -143,7 +143,7 @@ const Skills: React.FC = () => {
                     hoverColor="rgba(41, 153, 136, 0.136)"
                 />
                 <Skill
-                    name="Android Studio"
+                    name="Android"
                     Icon={Android} 
                     borderColor="rgba(164, 198, 57, 0.453)" 
                     hoverColor="rgba(164, 198, 57, 0.136)"
