@@ -51,7 +51,7 @@ function ProjectCard({
           <source src={`/${videoName}.webm`} type="video/webm" />
         </video>
         <div className="absolute top-0 h-[30%] lg:h-[44%] w-full bg-gradient-to-b from-transparent to-[#1d1c1c] pointer-events-none" />
-        <div className="relative px-5 py-3 mt-[48%]">
+        <div className="relative px-5 py-3 lg:mt-[50%] mt-[48%]">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">
             {title}
           </h5>
@@ -76,7 +76,7 @@ function ProjectCard({
           </span>
         </div>
         <hr className="w-full h-[1px] mb-2 bg-slate-700 border-none opacity-85" />
-        <ul className="flex flex-wrap w-full lg:flex-nowrap gap-x-2 gap-y-2 lg:gap-y-0">
+        <ul className="flex flex-wrap w-full px-3 lg:flex-nowrap gap-x-2 gap-y-2 lg:gap-y-0">
           {Object.values(tags).map((tag, index) => (
             <li key={index}>
               <span

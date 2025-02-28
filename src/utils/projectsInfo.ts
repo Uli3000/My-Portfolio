@@ -63,7 +63,7 @@ const ProyectoRentaGuna = {
         icon: Expressjs
     },
     TAILWIND: {
-        name: "Tailwind CSS",
+        name: "TailwindCSS",
         class: "bg-[#003159] text-white",
         icon: TailwindCSS
     },
@@ -85,7 +85,7 @@ const ProyectoJavaScriptQuiz = {
         icon: Vitejs
     },
     MATERIALUI: {
-        name: "Material UI",
+        name: "MaterialUI",
         class: "bg-[#3f51b5] text-white",
         icon: MaterialUI
     },
@@ -110,7 +110,7 @@ const ProyectoAtrapaElColor = {
 const ProyectoReticulasApp ={
     JAVASCRIPT: {
         name: "JavaScript",
-        class: "bg-[#ceda5c] text-black",
+        class: "bg-[#323330] text-white",
         icon: JavaScript,
     },
     PHP: {

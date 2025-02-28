@@ -17,9 +17,9 @@ const HeroContent = () => {
     <motion.div
       initial='hidden'
       animate='visible'
-      className='flex flex-row items-center justify-center px-20 mt-14 w-full z-[20]'
+      className='flex flex-row items-center justify-center lg:px-6 px-20 mt-14 w-full z-[20]'
     >
-      <div className='flex flex-col justify-center w-full h-full gap-5 m-auto text-start'>
+      <div className='flex flex-col justify-center w-full h-full gap-5 m-auto mx-14 text-start'>
         <motion.div
           variants={slideInFromLeft(0.5)}
           className='flex flex-col gap-6 mt-6 text-5xl md:text-6xl font-bold text-white max-w-[700px] w-auto  h-auto'
@@ -57,7 +57,7 @@ const HeroContent = () => {
           <button className='max-w-[200px] relative inline-flex items-center justify-center w-full h-12 px-6 font-medium transition-all bg-white rounded-md text-gray-950 hover:scale-105'>
             <div className='absolute -inset-0.5 -z-10 rounded-lg bg-gradient-to-b from-[#c7d2fe] to-[#8678f9] opacity-75 blur' />
             <a className='w-full' href='#Acerca-de-mi'>
-              Conoceme
+              Conóceme
             </a>
           </button>
           <nav className='flex flex-row flex-wrap gap-4'>
@@ -96,8 +96,8 @@ const HeroContent = () => {
           className='invisible opacity-80 sm:visible'
           src='/Spaceman.png'
           alt='work icons'
-          height={620}
-          width={620}
+          height={600}
+          width={600}
         />
       </motion.div>
     </motion.div>

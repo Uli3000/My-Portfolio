@@ -131,3 +131,7 @@ body {
   animation-timeline: view();
   animation-range: entry 1% cover 20%;
 }
+
+#Acerca-de-mi p{
+  max-width: 100ch;
+}
