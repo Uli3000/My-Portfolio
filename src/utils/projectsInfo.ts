@@ -15,7 +15,7 @@ import Bootstrap from "../components/icons/Bootstrap.js"
 const ProyectoTraductor = {
     REACT: {
         name: "React",
-        class: "bg-[#4992a6] text-white",
+        class: "bg-[#2465bf] text-white",
         icon: React
     },
     VITE:{
@@ -37,7 +37,7 @@ const ProyectoTraductor = {
 const ProyectoPokedex = {
     REACT: {
         name: "React",
-        class: "bg-[#4992a6] text-white",
+        class: "bg-[#2465bf] text-white",
         icon: React
     },
     VITE:{
@@ -76,7 +76,7 @@ const ProyectoRentaGuna = {
 const ProyectoJavaScriptQuiz = {
     REACT: {
         name: "React",
-        class: "bg-[#4992a6] text-white",
+        class: "bg-[#2465bf] text-white",
         icon: React
     },
     VITE:{
@@ -98,7 +98,7 @@ const ProyectoJavaScriptQuiz = {
 const ProyectoAtrapaElColor = {
     REACT: {
         name: "React",
-        class: "bg-[#4992a6] text-white",
+        class: "bg-[#2465bf] text-white",
         icon: React
     },
     VITE:{
