@@ -125,11 +125,30 @@ const ProyectoReticulasApp ={
     }
 }
 
+const ProyectoOptimusTime = {
+    REACT: {
+        name: "React",
+        class: "bg-[#2465bf] text-white",
+        icon: React
+    },
+    TYPESCRIPT: {
+        name: "TypeScript",
+        class: "bg-[#1056a4] text-white",
+        icon: TypeScript,
+    },
+    TAILWIND: {
+        name: "TailwindCSS",
+        class: "bg-[#003159] text-white",
+        icon: TailwindCSS
+    },
+}
+
 export {
     ProyectoAtrapaElColor,
     ProyectoJavaScriptQuiz,
     ProyectoPokedex,
     ProyectoRentaGuna,
     ProyectoTraductor,
-    ProyectoReticulasApp
+    ProyectoReticulasApp,
+    ProyectoOptimusTime,
 }

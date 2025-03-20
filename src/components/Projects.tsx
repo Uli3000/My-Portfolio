@@ -6,6 +6,7 @@ import {
   ProyectoAtrapaElColor,
   ProyectoTraductor,
   ProyectoReticulasApp,
+  ProyectoOptimusTime,
 } from "../utils/projectsInfo";
 
 function Projects() {
@@ -40,12 +41,12 @@ function Projects() {
           videoName="RentaGuna"
         />
         <ProjectCard
-          title="JavaScript Quiz"
-          description="Quiz básico de JavaScript que aprovecha el uso de estados globales de manera sencilla con Zustand, incluye persistencia de datos en el Local Storage y componentes visuales con Material UI"
-          tags={ProyectoJavaScriptQuiz}
-          previewLink="https://myjavascript-quiz.netlify.app"
-          codeLink="https://github.com/Uli3000/JasvascriptQuiz"
-          videoName="JavaScriptQuiz"
+          title="Optimus Time"
+          description="Optimus Time es una app web que te ayuda a manejar y optimizar tus tiempos de estudio y trabajo mediante tiempos y timers establecidos de X tiempoy pudiendo ver un resumen y historial de los dias."
+          tags={ProyectoOptimusTime}
+          previewLink="https://optimus-time.vercel.app"
+          codeLink="https://github.com/Uli3000/Optimus-Time"
+          videoName="OptimusTime"
         />
         <ProjectCard
           title="Atrapa el color"
@@ -54,6 +55,14 @@ function Projects() {
           previewLink="https://atrapa-el-color.netlify.app/"
           codeLink="https://github.com/Uli3000/Atrapa-el-color-ReactMiniGame"
           videoName="AtrapeElColor"
+        />
+        <ProjectCard
+          title="JavaScript Quiz"
+          description="Quiz básico de JavaScript que aprovecha el uso de estados globales de manera sencilla con Zustand, incluye persistencia de datos en el Local Storage y componentes visuales con Material UI"
+          tags={ProyectoJavaScriptQuiz}
+          previewLink="https://myjavascript-quiz.netlify.app"
+          codeLink="https://github.com/Uli3000/JasvascriptQuiz"
+          videoName="JavaScriptQuiz"
         />
         <ProjectCard
           title="Traductor Con CohereAI"
