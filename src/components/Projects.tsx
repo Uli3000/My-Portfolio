@@ -33,20 +33,20 @@ function Projects() {
           videoName="ReticulasApp"
         />
         <ProjectCard
-          title="RentaGuna"
-          description="RentaGuna es un proyecto de rentas de propiedades, que permite publicar, crear y editar a tu gusto, con sistema de login, rutas protegidas y una autenticación segura con JWT."
-          tags={ProyectoRentaGuna}
-          previewLink=''//"https://rentaguna-production.up.railway.app/auth/login"
-          codeLink="https://github.com/Uli3000/RentaGuna"
-          videoName="RentaGuna"
-        />
-        <ProjectCard
           title="Optimus Time"
           description="Optimus Time es una app web que te ayuda a manejar y optimizar tus tiempos de estudio y trabajo mediante tiempos y timers establecidos de X tiempoy pudiendo ver un resumen y historial de los dias."
           tags={ProyectoOptimusTime}
           previewLink="https://optimus-time.vercel.app"
           codeLink="https://github.com/Uli3000/Optimus-Time"
           videoName="OptimusTime"
+        />
+        <ProjectCard
+          title="RentaGuna"
+          description="RentaGuna es un proyecto de rentas de propiedades, que permite publicar, crear y editar a tu gusto, con sistema de login, rutas protegidas y una autenticación segura con JWT."
+          tags={ProyectoRentaGuna}
+          previewLink=''//"https://rentaguna-production.up.railway.app/auth/login"
+          codeLink="https://github.com/Uli3000/RentaGuna"
+          videoName="RentaGuna"
         />
         <ProjectCard
           title="Atrapa el color"

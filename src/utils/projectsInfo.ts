@@ -131,15 +131,15 @@ const ProyectoOptimusTime = {
         class: "bg-[#2465bf] text-white",
         icon: React
     },
-    TYPESCRIPT: {
-        name: "TypeScript",
-        class: "bg-[#1056a4] text-white",
-        icon: TypeScript,
-    },
     TAILWIND: {
         name: "TailwindCSS",
         class: "bg-[#003159] text-white",
         icon: TailwindCSS
+    },
+    TYPESCRIPT: {
+        name: "TypeScript",
+        class: "bg-[#1056a4] text-white",
+        icon: TypeScript,
     },
 }
 
