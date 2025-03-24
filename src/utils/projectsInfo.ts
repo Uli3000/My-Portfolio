@@ -157,7 +157,7 @@ const ProyectoTreasureStore = {
     },
     SUPABASE: {
         name: "Supabase",
-        class: "bg-[#2da872] text-white",
+        class: "bg-[#1d6947] text-white",
         icon: Supabase
     }
 }
