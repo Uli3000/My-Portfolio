@@ -11,6 +11,7 @@ import TypeScript from "../components/icons/TypeScript.js"
 import JavaScript from "../components/icons/JavaScript.js"
 import PHP from "../components/icons/PHP.js"
 import Bootstrap from "../components/icons/Bootstrap.js"
+import Supabase from "../components/icons/Supabase.js"
 
 const ProyectoTraductor = {
     REACT: {
@@ -143,6 +144,24 @@ const ProyectoOptimusTime = {
     },
 }
 
+const ProyectoTreasureStore = {
+    REACT: {
+        name: "React",
+        class: "bg-[#2465bf] text-white",
+        icon: React
+    },
+    TAILWIND: {
+        name: "TailwindCSS",
+        class: "bg-[#003159] text-white",
+        icon: TailwindCSS
+    },
+    SUPABASE: {
+        name: "Supabase",
+        class: "bg-[#2da872] text-white",
+        icon: Supabase
+    }
+}
+
 export {
     ProyectoAtrapaElColor,
     ProyectoJavaScriptQuiz,
@@ -151,4 +170,5 @@ export {
     ProyectoTraductor,
     ProyectoReticulasApp,
     ProyectoOptimusTime,
+    ProyectoTreasureStore,
 }

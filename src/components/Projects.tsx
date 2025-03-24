@@ -7,6 +7,7 @@ import {
   ProyectoTraductor,
   ProyectoReticulasApp,
   ProyectoOptimusTime,
+  ProyectoTreasureStore,
 } from "../utils/projectsInfo";
 
 function Projects() {
@@ -47,6 +48,14 @@ function Projects() {
           previewLink=''//"https://rentaguna-production.up.railway.app/auth/login"
           codeLink="https://github.com/Uli3000/RentaGuna"
           videoName="RentaGuna"
+        />
+        <ProjectCard 
+          title="Treasure Store"
+          description="Sitio web de almacenamiento personal de recursos sacados de diferentes plataformas organizados en categorias y subcategorias para mayor organizacion de una forma muy dinamica."
+          tags={ProyectoTreasureStore}
+          previewLink="https://treasure-store.netlify.app"
+          codeLink="https://github.com/Uli3000/Treasure-Store"
+          videoName="TreasureStore"
         />
         <ProjectCard
           title="Atrapa el color"
