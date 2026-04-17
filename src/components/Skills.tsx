@@ -7,19 +7,19 @@ import TailwindCSS from "./icons/TailwindCSS";
 import Vitejs from "./icons/Vite";
 import Nodejs from "./icons/Node.js";
 import Expressjs from "./icons/Express.js.js";
-import MaterialUI from "./icons/MaterialUI.js";
 import Zustand from "./icons/Zustand.js";
 import Bootstrap from "./icons/Bootstrap.js";
 import PHP from "./icons/PHP.js";
 import Java from "./icons/Java.js";
 import Android from "./icons/AndroidStudio.js";
 import MySQL from "./icons/MySQL.js";
-import JWT from "./icons/JWT.js";
 import CSS from "./icons/CSS.js";
 import Git from "./icons/Git.js";
 import Github from "./icons/GitHub.js";
 import MongoDB from "./icons/Mongo.js";
 import C from "./icons/C.js";
+import Nextjs from "./icons/NextJS.js";
+import { Figma } from "./icons/Figma.js";
 
 const Skills: React.FC = () => {
     return (
@@ -71,10 +71,10 @@ const Skills: React.FC = () => {
                     hoverColor="rgba(51, 51, 51, 0.136)"
                 />
                 <Skill
-                    name="Material UI"
-                    Icon={MaterialUI} 
-                    borderColor="rgba(63, 81, 181, 0.453)" 
-                    hoverColor="rgba(63, 81, 181, 0.136)"
+                    name="Next"
+                    Icon={Nextjs} 
+                    borderColor="rgba(222, 222, 227, 0.453)" 
+                    hoverColor="rgba(222, 222, 2271, 0.136)"
                 />
                 <Skill
                     name="Zustand"
@@ -137,10 +137,10 @@ const Skills: React.FC = () => {
                     hoverColor="rgba(188, 188, 188, 0.136)"
                 />
                 <Skill
-                    name="JSON Web Token"
-                    Icon={JWT} 
-                    borderColor="rgba(41, 153, 136, 0.453)" 
-                    hoverColor="rgba(41, 153, 136, 0.136)"
+                    name="Figma"
+                    Icon={Figma} 
+                    borderColor="rgba(255, 114, 98, 0.453)" 
+                    hoverColor="rgba(242, 78, 30, 0.136)"
                 />
                 <Skill
                     name="Android"
