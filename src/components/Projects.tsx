@@ -13,7 +13,7 @@ import {
 
 function Projects() {
   return (
-    <section id="Proyectos" className="max-w-[1320px] z-40 sm:mx-auto w-full mt-28">
+    <section id="Proyectos" className="max-w-[1320px] z-40 sm:mx-auto w-full mt-24">
       <h2 className="mt-4 font-[Onest] text-4xl font-semibold text-gray-100 mb-10 text-center">
         Proyectos
       </h2>
