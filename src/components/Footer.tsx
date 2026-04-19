@@ -8,7 +8,7 @@ function Footer() {
         <hr className='my-6 border-gray-700 sm:mx-auto lg:mt-1' />
         <div className='sm:flex sm:items-center sm:justify-between'>
           <span className='text-sm text-gray-400 sm:text-center'>
-            © 2025{' '}
+            © 2026{' '}
             <a href='#' className='hover:underline'>
               Ulises Castro
             </a>
