@@ -12,6 +12,7 @@ import JavaScript from "../components/icons/JavaScript.js"
 import PHP from "../components/icons/PHP.js"
 import Bootstrap from "../components/icons/Bootstrap.js"
 import Supabase from "../components/icons/Supabase.js"
+import Nextjs from "../components/icons/NextJS.js"
 
 const ProyectoTraductor = {
     REACT: {
@@ -162,6 +163,24 @@ const ProyectoTreasureStore = {
     }
 }
 
+const ProyectoOmnigeo = {
+    NEXT: {
+        name: "Next.js",
+        class: "bg-[#21211d] text-white",
+        icon: Nextjs
+    },
+    TAILWIND: {
+        name: "TailwindCSS",
+        class: "bg-[#003159] text-white",
+        icon: TailwindCSS
+    },
+    TYPESCRIPT: {
+        name: "TypeScript",
+        class: "bg-[#1056a4] text-white",
+        icon: TypeScript
+    }
+}
+
 export {
     ProyectoAtrapaElColor,
     ProyectoJavaScriptQuiz,
@@ -171,4 +190,5 @@ export {
     ProyectoReticulasApp,
     ProyectoOptimusTime,
     ProyectoTreasureStore,
+    ProyectoOmnigeo,
 }
